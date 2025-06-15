@@ -46,15 +46,15 @@ const Hero = () => {
                             md:text-5xl lg:text-5xl"
                                 words={lowerHeading}
                             />
-                            <AnimatedContent
-                                children={<a
+                            <AnimatedContent>
+                                <a
                                     href="/resume.pdf"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
                                     <MagicButton />
-                                </a>}
-                            />
+                                </a>
+                            </AnimatedContent>
                             <div className="flex items-center pt-10 gap-10">
                                 {platforms.map(({ link, icon }) => (
                                     <a
