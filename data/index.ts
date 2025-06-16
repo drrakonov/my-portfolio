@@ -38,7 +38,7 @@ export const Records: Records[] = [
   },
   {
     id: 3,
-    title: '1580+ Rated LeetCode',
+    title: '1660+ Rated LeetCode',
     desc: 'Solved over 600 problems on LeetCode, showcasing strong problem-solving skills.'
   },
   {
@@ -54,7 +54,6 @@ export const NavItems: NavItems[] = [
     {name: 'Projects', link: '#projects'},
     {name: 'Skills', link: '#skills'},
     {name: 'Achievements', link: '#Achievements'},
-    {name: 'Contact', link: '#contact'},
 ]
 
 export const platforms: Platforms[] = [
@@ -68,7 +67,7 @@ export const platforms: Platforms[] = [
     },
     {
         link: "https://x.com/abhay5353",
-        icon: "twit.svg"
+        icon: "xcom.svg"
     }
 ]
 
@@ -83,7 +82,7 @@ export const codingPlatforms: Platforms[] = [
     },
     {
         link: "https://atcoder.jp/users/drakonov",
-        icon: "leetcode.svg"
+        icon: "atcoder.png"
     },
     {
         link: "https://www.codechef.com/users/drakonov",
@@ -104,7 +103,7 @@ export const projects: Projects[] = [
         id: 2,
         title: 'Portfolio',
         desc: 'My Portfolio',
-        link: 'https://brainlink-frontend-alw3.vercel.app/',
+        link: 'https://drakonov-portfolio.vercel.app/',
         img: "/portfolio.svg",
         iconList: ["/re.svg", "/tail.svg", "ts.svg", "next.svg"]
     },
