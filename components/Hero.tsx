@@ -37,8 +37,8 @@ const Hero = () => {
                         {upperHeading}
                     </h2>
                     <div className="flex flex-col 600bp:flex-row justify-center items-center pt-20">
-                        <TiltedCard 
-                            imageSrc="/images/AbhayProfile.png"
+                        <TiltedCard
+                            imageSrc="/images/profilePicF.png"
                         />
                         <div className="flex flex-col justify-center items-center">
                             <TextGenerateEffect
