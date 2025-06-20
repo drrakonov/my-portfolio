@@ -99,9 +99,6 @@
       --tw-translate-x: 0;
       --tw-translate-y: 0;
       --tw-translate-z: 0;
-      --tw-scale-x: 1;
-      --tw-scale-y: 1;
-      --tw-scale-z: 1;
       --tw-rotate-x: initial;
       --tw-rotate-y: initial;
       --tw-rotate-z: initial;
@@ -519,10 +516,6 @@
     left: 50%;
   }
 
-  .left-3 {
-    left: calc(var(--spacing) * 3);
-  }
-
   .left-4 {
     left: calc(var(--spacing) * 4);
   }
@@ -824,24 +817,6 @@
   .translate-y-\[14px\] {
     --tw-translate-y: 14px;
     translate: var(--tw-translate-x) var(--tw-translate-y);
-  }
-
-  .scale-3 {
-    --tw-scale-x: 3%;
-    --tw-scale-y: 3%;
-    --tw-scale-z: 3%;
-    scale: var(--tw-scale-x) var(--tw-scale-y);
-  }
-
-  .scale-50 {
-    --tw-scale-x: 50%;
-    --tw-scale-y: 50%;
-    --tw-scale-z: 50%;
-    scale: var(--tw-scale-x) var(--tw-scale-y);
-  }
-
-  .scale-3d {
-    scale: var(--tw-scale-x) var(--tw-scale-y) var(--tw-scale-z);
   }
 
   .scale-\[1\.15\] {
@@ -1419,14 +1394,6 @@
     will-change: transform;
   }
 
-  .\[perspective\:00px\] {
-    perspective: 0;
-  }
-
-  .\[perspective\:300px\] {
-    perspective: 300px;
-  }
-
   .\[perspective\:800px\] {
     perspective: 800px;
   }
@@ -1951,24 +1918,6 @@ html {
   syntax: "*";
   inherits: false;
   initial-value: 0;
-}
-
-@property --tw-scale-x {
-  syntax: "*";
-  inherits: false;
-  initial-value: 1;
-}
-
-@property --tw-scale-y {
-  syntax: "*";
-  inherits: false;
-  initial-value: 1;
-}
-
-@property --tw-scale-z {
-  syntax: "*";
-  inherits: false;
-  initial-value: 1;
 }
 
 @property --tw-rotate-x {

@@ -102,7 +102,7 @@ const projects = [
         id: 1,
         title: 'BrainLink',
         desc: 'Share your all links with just one link',
-        link: 'https://brainlink-frontend-alw3.vercel.app/',
+        link: 'https://brainlink-frontend.vercel.app/',
         img: "/brainlink.svg",
         iconList: [
             "/re.svg",
@@ -116,7 +116,7 @@ const projects = [
         title: 'Portfolio',
         desc: 'My Portfolio',
         link: 'https://drakonov-portfolio.vercel.app/',
-        img: "/portfolio.svg",
+        img: "/myPortfolio.svg",
         iconList: [
             "/re.svg",
             "/tail.svg",
