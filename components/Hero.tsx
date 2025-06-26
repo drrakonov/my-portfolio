@@ -5,6 +5,7 @@ import MagicButton from "./ui/MagicButton";
 import { lowerHeading, platforms } from "@/data";
 import AnimatedContent from "@/Reactbits/AnimatedContent/AnimatedContent";
 import TiltedCard from "@/Reactbits/AnimatedContent/TiltedCard";
+import Image from "next/image";
 
 const upperHeading: string = '<About Me />'
 
@@ -56,18 +57,21 @@ const Hero = () => {
                                 </a>
                             </AnimatedContent>
                             <div className="flex items-center pt-10 gap-10">
-                                {platforms.map(({ link, icon }) => (
+                                {platforms.map(({ link, icon }, ind) => (
                                     <a
                                         href={link}
                                         key={icon}
                                         target="_blank"
                                         className="border border-white/[0.2]
                                         rounded-full bg-black lg:w-12 lg:h-12 w-10 h-10
-                                        flex justify-center items-center">
-                                        <img
+                                        flex justify-center items-center relative">
+                                        <Image
                                             src={icon}
                                             alt={link}
-                                            className="p-2"
+                                            className="p-2 object-contain"
+                                            //fill={true}
+                                            width={ind === 2 ? 45 : 38}
+                                            height={ind === 2 ? 45 : 38}
                                         />
                                     </a>
                                 ))}

@@ -1,6 +1,7 @@
 import { projects } from "@/data";
 import { PinContainer } from "./ui/ProjectCard";
 import { FaLocationArrow } from "react-icons/fa";
+import Image from "next/image";
 
 const heading = '<Projects />'
 
@@ -28,12 +29,17 @@ const Projects = () => {
                             sm:w-96 w-[80vw] overflow-hidden h-[200px] lg:h-[250px] mb-10">
                                 <div className="relative w-full h-full overflow-hidden lg:rounded-3xl
                                 bg-[#13162d]">
-                                    <img src="/bg.png" alt="bg-img" />
+                                    <Image 
+                                        src="/bg.png" 
+                                        alt="bg-img" 
+                                        fill={true}
+                                    />
                                 </div>
-                                <img 
-                                src={img} 
-                                alt={title} 
-                                className="z-10 absolute bottom-0"
+                                <Image 
+                                    src={img} 
+                                    alt={title} 
+                                    className="z-10 absolute bottom-0"
+                                    fill={true}
                                 />
                             </div>
                             <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
@@ -50,10 +56,11 @@ const Projects = () => {
                                         rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8
                                         flex justify-center items-center" 
                                         style={{transform: `translateX(-${5 * index * 2}px)`}}>
-                                            <img 
-                                            src={icon} 
-                                            alt={icon} 
-                                            className="p-2"
+                                            <Image 
+                                                src={icon} 
+                                                alt={icon} 
+                                                className="p-2"
+                                                fill={true}
                                             />
                                         </div>
                                     ))}
