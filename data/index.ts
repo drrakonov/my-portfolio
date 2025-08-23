@@ -170,7 +170,7 @@ export const projects: Projects[] = [
         id: 1,
         title: 'BrainLink',
         desc: 'Share your all links with just one link',
-        link: 'https://brainlink-frontend.vercel.app/',
+        link: 'https://brainlink.drakonov.lol/',
         img: "/images/projects/brainlink.svg",
         iconList: ["/images/skills/react.svg", "/images/skills/tailwind.svg", "/images/skills/typescript.svg", "/images/skills/mongodb-icon.svg"]
     },
@@ -178,7 +178,7 @@ export const projects: Projects[] = [
         id: 2,
         title: 'Portfolio',
         desc: 'My Portfolio',
-        link: 'https://drakonov-portfolio.vercel.app/',
+        link: 'https://drakonov.lol/',
         img: "/images/projects/myPortfolio.svg",
         iconList: ["/images/skills/react.svg", "/images/skills/tailwind.svg", "/images/skills/typescript.svg", "/images/skills/next.svg"]
     },
