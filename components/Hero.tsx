@@ -4,7 +4,6 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/MagicButton";
 import { lowerHeading, platforms } from "@/data";
 import AnimatedContent from "@/Reactbits/AnimatedContent/AnimatedContent";
-import TiltedCard from "@/Reactbits/AnimatedContent/TiltedCard";
 import Image from "next/image";
 
 const upperHeading: string = '<About Me />'
@@ -38,9 +37,7 @@ const Hero = () => {
                         {upperHeading}
                     </h2>
                     <div className="flex flex-col 600bp:flex-row justify-center items-center pt-20">
-                        <TiltedCard
-                            imageSrc="/images/profilePicF.png"
-                        />
+                        
                         <div className="flex flex-col justify-center items-center">
                             <TextGenerateEffect
                                 className="text-center text-wrap text-[40px]
